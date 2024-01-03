@@ -6,12 +6,76 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     />
+    <script
+      src="https://kit.fontawesome.com/10fdd43b97.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="style.css" />
     <title>Random password generator</title>
   </head>
   <body>
     <div class="container">
       <h2>Random password generator</h2>
+      <div class="result-container">
+        <span class="result"></span>
+        <button class="btn" id="clipboard">
+          <i class="fa-solid fa-clipboard"></i>
+        </button>
+      </div>
+      <div class="settings">
+        <div class="setting">
+          <label> Password length</label>
+          <input
+            type="number"
+            id="length"
+            min="5"
+            max="18"
+            value="18"
+          />
+        </div>
+        <div class="setting">
+          <label>
+            Include uppercase letters
+          </label>
+          <input
+            type="checkbox"
+            id="upperCase"
+            checked
+          />
+        </div>
+        <div class="setting">
+          <label>
+            Include lowercase letters
+          </label>
+          <input
+            type="checkbox"
+            id="lowerCase"
+            checked
+          />
+        </div>
+        <div class="setting">
+          <label> Include numbers </label>
+          <input
+            type="checkbox"
+            id="numbers"
+            checked
+          />
+        </div>
+        <div class="setting">
+          <label> Include symbols </label>
+          <input
+            type="checkbox"
+            id="symbols"
+            checked
+          />
+        </div>
+      </div>
+      <button
+        id="generate"
+        class="btn btn-generate"
+      >
+        Generate password
+      </button>
     </div>
     <script src="app.js"></script>
   </body>

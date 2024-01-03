@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@700&family=Poppins:ital,wght@0,400;0,900;1,400;1,900&family=Roboto:wght@100;400;900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto" sans-serif;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.picture {
+  border: 1px solid #000;
+}

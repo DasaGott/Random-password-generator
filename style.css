@@ -89,7 +89,7 @@ h2 {
 .btn-generate {
   cursor: pointer;
   width: 80%;
-  margin: 0 auto;
+  margin: 20px auto;
   display: block;
   padding: 5px 20px;
   font-size: 15px;
